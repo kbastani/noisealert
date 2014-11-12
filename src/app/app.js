@@ -21,11 +21,6 @@ var noiseAlertControllers = angular.module('ngNoiseAlertControllers', []);
 
 noiseAlertControllers.controller('NoiseAlertCtrl', ['$scope', '$http',
   function ($scope, $http) {
-    // $http.get('phones/phones.json').success(function(data) {
-    //   $scope.phones = data;
-    // });
-
-    $scope.test = "Test";
     if(!$scope.containers)
       $scope.container = 0
   }]).directive('myCurrentTime', ['$interval', function($inteval) {
