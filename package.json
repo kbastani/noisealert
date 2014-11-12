@@ -1,0 +1,24 @@
+{
+  "name": "noisealert",
+  "version": "0.0.0",
+  "description": "Noise Alert",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.4.7",
+    "node-rest-client": "1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "kbastani",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
