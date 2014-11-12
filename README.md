@@ -1,6 +1,6 @@
 # Noise Alert
 
-Noise alert let's you know via text when you're being too loud in the library.
+Noise alert lets you know via text when you're being too loud in the library.
 
   npm install
   node app
