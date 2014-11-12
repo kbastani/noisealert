@@ -2,8 +2,8 @@
 
 Noise alert lets you know via text when you're being too loud in the library.
 
-  npm install
-  node app
+    npm install
+    node app
 
 Navigate to `http://localhost:5000` and type in your phone number with the country code first, ex. +15555555555.
 
