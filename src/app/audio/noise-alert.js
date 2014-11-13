@@ -22,7 +22,7 @@ function SoundMeter(context) {
 
   $("#btnStart").click(function() {
 
-    var phone = $("#phoneNumber").val()
+    var phone = $("#phoneNumber").val();
     if(phone == "" || !phone.contains("+1")) {
       $("#phoneNumber").parents(".form-group").removeClass("has-error").addClass("has-error");
       alert("Input a valid phone number, with country code +1.");
