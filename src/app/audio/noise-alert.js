@@ -46,6 +46,12 @@ function SoundMeter(context) {
     thisOutputTimePeriod: 0.0
   }
 
+  if(!('contains' in String.prototype)) {
+       String.prototype.contains = function(str, startIndex) {
+                return -1 !== String.prototype.indexOf.call(this, str, startIndex);
+       };
+   }
+
   this.script = context.createScriptProcessor(2048, 1, 1);
 
   // Use the reduce function's method signature to get the sum of an array's values
